@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+.side {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 9rem;
+    background-color: black;
+    padding: 1rem;
+}
+.사용자 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+}
+ul,
+li {
+    list-style-type: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.검색 {
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    margin: 1rem 2.5rem 0 2.5rem;
+    padding: 0.6rem;
+}
+.검색:hover {
+    color: red;
+    cursor: pointer;
+}
+.로그인 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.5rem;
+}
+.로그인 .fa {
+    font-size: 2.5rem;
+    color: gray;
+    margin-bottom: 0.3rem;
+}
+.로그인 .fa:hover {
+    color: red;
+    cursor: pointer;
+}
+.로그인라인 li {
+    margin-top: 0.5rem;
+    color: gray;
+}
+.로그인라인 li:hover {
+    color: red;
+    cursor: pointer;
+}
+.로그인라인 li .fa-angle-right {
+    margin-left: 0.5em;
+}
+.마이하트 {
+    margin-top: 3rem;
+}
+.마이하트 .fa {
+    font-size: 2.5rem;
+    color: gray;
+    margin-bottom: 0.3rem;
+}
+.마이하트 .fa:hover {
+    color: red;
+    cursor: pointer;
+}
+.장바구니 {
+    margin-top: 3rem;
+}
+.장바구니 .fa {
+    font-size: 2.5rem;
+    color: gray;
+    margin-bottom: 0.3rem;
+}
+.장바구니 .fa:hover {
+    color: red;
+    cursor: pointer;
+}
